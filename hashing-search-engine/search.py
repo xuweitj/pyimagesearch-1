@@ -7,8 +7,8 @@
 #   IMPORT
 # ------------------------
 # import the necessary packages
-from py_image_search.hashing import convert_hash
-from py_image_search.hashing import dhash
+from pyimagesearch.hashing import convert_hash
+from pyimagesearch.hashing import dhash
 import argparse
 import pickle
 import time

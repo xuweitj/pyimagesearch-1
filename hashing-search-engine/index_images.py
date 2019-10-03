@@ -7,9 +7,9 @@
 #   IMPORTS
 # ------------------------
 # import the necessary packages
-from py_image_search.hashing import convert_hash
-from py_image_search.hashing import hamming
-from py_image_search.hashing import dhash
+from pyimagesearch.hashing import convert_hash
+from pyimagesearch.hashing import hamming
+from pyimagesearch.hashing import dhash
 from imutils import paths
 import argparse
 import pickle
