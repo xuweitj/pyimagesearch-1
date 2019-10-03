@@ -4,10 +4,10 @@
 # python extract.py --images 101_ObjectCategories --output temp_output --hashes hashes.pickle
 
 # ------------------------
-#   IMPORTS
+#   IMPORT
 # ------------------------
-from .py_image_search.parallel_hashing import process_images
-from .py_image_search.parallel_hashing import chunk
+from pyimagesearch.parallel_hashing import process_images
+from pyimagesearch.parallel_hashing import chunk
 from multiprocessing import Pool
 from multiprocessing import cpu_count
 from imutils import paths
@@ -78,4 +78,3 @@ if __name__ == "__main__":
     f = open(args["hashes"], "wb")
     f.write(pickle.dumps(hashes))
     f.close()
-
