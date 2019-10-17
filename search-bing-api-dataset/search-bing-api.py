@@ -26,12 +26,12 @@ args = vars(ap.parse_args())
 # Set your Microsoft Cognitive Services API key along with:
 # (1) The maximum number of results for a given search;
 # (2) The group size for results (maximum of 50 per request)
-API_KEY = "3c8fe1563ae147c995c2a0add9a057a0"
+API_KEY = "400afc25e7aa4fa28be594b7ae3e7f5c"
 MAX_RESULTS = 250
 GROUP_SIZE = 50
 
 # Set the endpoint API Url
-URL = "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0/images/search"
+URL = "https://api.cognitive.microsoft.com/bing/v7.0/images/search"
 
 # When attempting to download images from the web both the Python programming language and the request library have a
 # number of exceptions that can be thrown so let's build a list of them now so we can filter on them
